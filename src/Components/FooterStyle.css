@@ -1,0 +1,53 @@
+.footer {
+  padding: 4rem 6rem;
+  background: rgb(90, 60, 40);
+  color: wheat;
+}
+.top {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.top i {
+  color: black;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.top i:hover {
+  color: pink;
+}
+.bottom {
+  padding-top: 2rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bottom div {
+  flex-direction: column;
+  display: flex;
+}
+.bottom h4 {
+  font-size: 1.2rem;
+  padding: 1rem 0 0.8rem 0;
+  color: black;
+}
+.bottom a {
+  text-decoration: none;
+  color: wheat;
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 950px) {
+  .footer {
+    padding: 4rem 2rem;
+  }
+  .footer i {
+    margin: 1rem 1rem 0 0;
+  }
+  .bottom div {
+    width: 50%;
+  }
+}
